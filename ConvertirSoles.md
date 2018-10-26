@@ -1,3 +1,10 @@
+Programa para convertir de soles a: yenes, dolares, euros, libras
+
+Asumiendo que los respectivos botones tienen de ID: btn(eur/dol/yen/lib)
+
+y que
+el Plain Text tiene de ID: textField1...
+
 ```Java
 
 package jumpnshootman.convertirmoneda;
