@@ -20,6 +20,19 @@ class Main {
     System.out.println("Agregamos nuevamente el dato e imprimimos toda la lista");
     list.add(3);
     System.out.println(list.toString());
+    
+    import java.util.*;
+
+    Map map = new HashMap();
+    map.put("Father", "Lenin");
+    map.put("Mother","Patricia");
+
+    System.out.println(map.get("Father"));
+    System.out.println(map.get("Mother"));
+    map.remove("Mother");
+    System.out.println("Removiendo Mother el tamaño del hashmap es: " + map.size());
+  }
+}
 
   }
 }
