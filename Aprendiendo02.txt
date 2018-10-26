@@ -1,0 +1,3 @@
+Ya logré hacer mi primera aplicación de convertir dinero a diferentes monedas y he comenzado a ver Java dentro de un compilador de replit.
+He aprendido cómo utilizar variables y arrays y estaré viendo la sección de mapas...
+Teniendo más claro cómo utilizar variables, hashmaps, arrays y haciendo repasado switch, loops e if, empezaré a desarrollar algunos softwares con mayor complejidad
