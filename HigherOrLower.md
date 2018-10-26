@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     int numero;
     public void clickfunction(){
 
-        if((Integer.valueOf(textfield1.getText().toString()) < 20 ) && (Integer.valueOf(textfield1.getText().toString())>0))
+        if((Integer.valueOf(textfield1.getText().toString()) < 21 ) && (Integer.valueOf(textfield1.getText().toString())>0))
         {
             if (Integer.valueOf(textfield1.getText().toString()) == numero) {
                 Toast.makeText(MainActivity.this, "Lo conseguiste!", Toast.LENGTH_LONG).show();
