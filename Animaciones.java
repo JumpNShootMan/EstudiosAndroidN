@@ -18,14 +18,15 @@ public class MainActivity extends AppCompatActivity {
         // TODO Auto-generated method stub
         Toast.makeText(MainActivity.this,"Sorpresa!",Toast.LENGTH_LONG).show();
         img2.animate().alpha(1f).setDuration(2000);
-
+        img2.animate().rotation(360).scaleY(1.5f).setDuration(2000);
+        //puedes combinar translation X e Y al mismo tiempo para diagonales y a eso se le incluye rotacion
         return super.onTouchEvent(event);
     }
 
 
     public void fade(){
         img1.animate().translationX(-1000f).setDuration(1500);
-
+        img1.animate().scaleX(0.5f).scaleY(0.5f).setDuration(2000);
         //img1.animate().alpha(0f).setDuration(2000); //ms
         //img2.setVisibility(View.INVISIBLE);
         //img2.animate().alpha(1f).setDuration(2000);
